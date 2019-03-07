@@ -1,6 +1,6 @@
 ---
-title: 'Chapter Title Here'
-description: 'Chapter description goes here.'
+title: 'Python for Data Science'
+description: 'Enjoy your exercise as you grow from zero to hero '
 free_preview: true
 ---
 
@@ -45,6 +45,54 @@ Pandas
 Numpy
 Matplotlib
 Scapy
+```
+
+`@sct`
+```{python}
+
+```
+
+---
+
+## Numpy
+
+```yaml
+type: NormalExercise
+key: 1f89ed8bc9
+xp: 100
+```
+
+Wow, **Congrats** ```
+:)
+``` you have successfully entered the society of ds heros with python as your sword and you got to use your intuition as your skills
+In this phase you will write code like a World-class Data Scientist. 
+Let's look at the first python library on our list(previous session)
+
+`@instructions`
+Import```Numpy```  and pass it into an alias
+```np``` then use ```np.around```use it to round up the sum of 2.345 + 2.7845 into 2 decimal places.
+
+`@hint`
+Import numpy and print (first number+ 2nd number), then use np.around to round them the sum total into 2 decimal places
+
+`@pre_exercise_code`
+```{python}
+import numpy as np
+value = (2.345 + 2.7845)
+np.around(value,2)
+
+```
+
+`@sample_code`
+```{python}
+
+```
+
+`@solution`
+```{python}
+import numpy as np
+value = (2.345 + 2.7845)
+np.around(value,2)
 ```
 
 `@sct`
