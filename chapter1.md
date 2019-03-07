@@ -99,3 +99,33 @@ np.around(value,2)
 ```{python}
 
 ```
+
+---
+
+## Numpy Exercise
+
+```yaml
+type: MultipleChoiceExercise
+key: 20ccf0e81e
+xp: 50
+```
+
+This exercise will requires you to research online 
+
+Research and write 30 Numpy code to perform a task
+
+`@possible_answers`
+
+
+`@hint`
+Click [here](https://www.w3resource.com/python-exercises/numpy/index.php) to see hint
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sct`
+```{python}
+
+```
