@@ -14,13 +14,20 @@ xp: 100
 skills: 2
 ```
 
-This is an example exercise.
+# **Hello,Welcome to Day 4- 5 of 100 days of Ds code.**
+
+We discussed on Python libraries for Data Science and we mentioned 10 of them.
+in this exercise we will focus on the popular and most used data science libraries such as 
+1. Pandas
+2. Numpy
+3. Matplotlib
+4. Scapy
 
 `@instructions`
-
+Type the 4 most used Python libraries for Data Science
 
 `@hint`
-
+PNMS
 
 `@pre_exercise_code`
 ```{python}
@@ -34,7 +41,10 @@ This is an example exercise.
 
 `@solution`
 ```{python}
-
+Pandas
+Numpy
+Matplotlib
+Scapy
 ```
 
 `@sct`
