@@ -184,7 +184,7 @@ xp: 100
 Apparently, creating dataframe is your first step in almost anything that you want to do when it comes to data munging in Python. Sometimes, you will want to start from scratch, but you can also convert other data structures, such as lists or Numpy arrays, to Pandas DataFrames. 
 
 `@instructions`
-In this session you will create a pandas dataframe using Numpy ```nparray```.
+In this session you will create a pandas dataframe using Numpy arrays ```nparray```.
 
 You are required to just pass it to the ```DataFrame()``` function in the data argument.
 
