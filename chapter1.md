@@ -510,7 +510,6 @@ xp: 50
 
 This exercise will requires you to do the following task
 
-
 `@possible_answers`
 
 
@@ -639,8 +638,6 @@ Wow, we have come to the end of week 1, you are amazing trust me and i am well s
 1. The 10 python libraries for data science, 
 2. Have a comprehensible understanding on how to use pandas to read,load and do other activities using pandas,numpy and matplotlib
 3. grow in knowledge and intuition
-
-
 
 `@instructions`
 Kindly type the hashtag you are required to use to share your progress on your social media page.
