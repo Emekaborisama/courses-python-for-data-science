@@ -452,7 +452,8 @@ key: f4e7a396ac
 xp: 100
 ```
 
-DataFrame.isna()	Detect missing values.
+```
+- DataFrame.isna()	Detect missing values.
 DataFrame.notna()	Detect existing (non-missing) values.
 
 DataFrame.head([n])	Return the first n rows.
@@ -469,6 +470,7 @@ DataFrame.fillna([value, method, axis, …])	Fill NA/NaN values using the specif
 DataFrame.append(other[, ignore_index, …])	Append rows of other to the end of caller, returning a new object.
 DataFrame.assign(**kwargs)	Assign new columns to a DataFrame.
 DataFrame.join(other[, on, how, lsuffix, …])	Join columns of another DataFrame.
+```
 
 `@instructions`
 The code above is useful so write it on your learning notebook and click on submit to pass
@@ -498,7 +500,7 @@ The code above is useful so write it on your learning notebook and click on subm
 
 ---
 
-## Insert exercise title here
+## Pratice
 
 ```yaml
 type: MultipleChoiceExercise
@@ -513,14 +515,152 @@ This exercise will requires you to do the following task
 
 
 `@hint`
-Read the data
+Read the dataset
 assign it to a variable ```df```
-show the mean of the dataset
-count the number of column and rows using this dataset
+describe your dataset
+count the number of column and rows using the dataset
+(Use the IBM dataset given to you)
 
 `@pre_exercise_code`
 ```{python}
 
+```
+
+`@sct`
+```{python}
+
+```
+
+---
+
+## Matplotlib
+
+```yaml
+type: NormalExercise
+key: 129e6d4749
+xp: 100
+```
+
+Wow, Next level ohhhhhh.
+
+In this session you will develop a simple bar chart using matplotlib
+
+`@instructions`
+Import matplotlib library and click submit to migrate to the next level
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+
+```
+
+`@solution`
+```{python}
+import matplotlib.pyplot as plt
+```
+
+`@sct`
+```{python}
+
+```
+
+---
+
+## Plot
+
+```yaml
+type: NormalExercise
+key: 41f9f22750
+xp: 100
+```
+
+Next level ohhhhhh.
+
+In this session you will develop a bar chart using matplotlib but you will do it on your Jupyter notebook or IBM waston notebook(recommended) and submit it here due to the library overfitting on this editor```
+(lol:) )
+```
+
+`@instructions`
+matplotlib.pyplot is a list of command style functions that make matplotlib work like MATLAB. Each pyplot function produces some change to a figure: e.g., creates a figure, creates a plotting area in a figure,plots some lines in a plotting area, decorates the plot with labels, etc.
+
+In this session you will plot a bar chart of the IBM dataset but you will do it on your Jupyter notebook or IBM waston notebook(recommended) and submit it [here](https://goo.gl/forms/Sb0vFEeOyz74tEqf1) due to the library overfitting on this editor```(lol:) )```
+.
+
+```Kindly click on submit button to migrate to fly with Qatar Air  :)```
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+#Here is a tips
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3, 4])
+plt.ylabel('some numbers')
+plt.show()
+
+```
+
+`@solution`
+```{python}
+
+```
+
+`@sct`
+```{python}
+
+```
+
+---
+
+## Congrats
+
+```yaml
+type: NormalExercise
+key: 03ce174c7d
+xp: 100
+```
+
+Welcome to the end of Day 4-5 enthusiast
+
+Wow, we have come to the end of week 1, you are amazing trust me and i am well sure that right now you know:
+1. The 10 python libraries for data science, 
+2. Have a comprehensible understanding on how to use pandas to read,load and do other activities using pandas,numpy and matplotlib
+3. grow in knowledge and intuition
+
+
+
+`@instructions`
+Kindly type the hashtag you are required to use to share your progress on your social media page.
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+
+```
+
+`@solution`
+```{python}
+#100daysofcode #100daysofDscode #100days #Day2 #Day2outof100 #DataScience #MachineLearning #Ai
 ```
 
 `@sct`
