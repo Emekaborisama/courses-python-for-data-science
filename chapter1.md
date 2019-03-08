@@ -132,7 +132,7 @@ Click [here](https://www.w3resource.com/python-exercises/numpy/index.php) to see
 
 ---
 
-## Pandas 
+## Pandas
 
 ```yaml
 type: NormalExercise
@@ -181,7 +181,7 @@ key: 20c4d15f4b
 xp: 100
 ```
 
-Apparently, creating dataframe is your first step in almost anything that you want to do when it comes to data munging in Python. Sometimes, you will want to start from scratch, but you can also convert other data structures, such as lists or Numpy arrays, to Pandas DataFrames. 
+Apparently, creating dataframe is your first step in almost anything that you want to do when it comes to data munging in Python. Sometimes, you will want to start from scratch, but you can also convert other data structures, such as lists or Numpy arrays, to Pandas DataFrames.
 
 `@instructions`
 In this session you will create a pandas dataframe using Numpy arrays ```nparray```.
@@ -200,7 +200,9 @@ nparray
 
 `@sample_code`
 ```{python}
-#Here is an example of a dataframe made with numpy nparray 
+#Here is an example of a dataframe made with numpy nparray
+import numpy as np
+import pandas as pd
 data = np.array([['','Col1','Col2'],
                 ['Row1',1,2],
                 ['Row2',3,4]])
@@ -208,9 +210,315 @@ data = np.array([['','Col1','Col2'],
 print(pd.DataFrame(data=data[1:,1:],
                   index=data[1:,0],
                   columns=data[0,1:]))
+my_series = pd.Series({"United Kingdom":"London", "India":"New Delhi", "United States":"Washington", "Belgium":"Brussels"})
+print(pd.DataFrame(my_series))
+.
+print("#We have sucessfully created a dataframe in pandas using numpy arrays")
 ```
 
 `@solution`
+```{python}
+import numpy as np
+import pandas as pd
+data = np.array([['','Col1','Col2'],
+                ['Row1',1,2],
+                ['Row2',3,4]])
+ #Convert a numpy array to Pandas Dataframe               
+print(pd.DataFrame(data=data[1:,1:],
+                  index=data[1:,0],
+                  columns=data[0,1:]))
+my_series = pd.Series({"United Kingdom":"London", "India":"New Delhi", "United States":"Washington", "Belgium":"Brussels"})
+print(pd.DataFrame(my_series))
+```
+
+`@sct`
+```{python}
+
+```
+
+---
+
+## Pandas Dataframe exercise
+
+```yaml
+type: NormalExercise
+key: 0269fdf8cd
+xp: 100
+```
+
+Convert the following numpy arrays to pandas dataframe
+
+`@instructions`
+Convert the following to pandas dataframe
+```1. my_dict = {1: ['1', '3'], 2: ['1', '2'], 3: ['2', '4']}```
+```2.my_series = pd.Series({"United Kingdom":"London", "India":"New Delhi", "United States":"Washington", "Belgium":"Brussels"})```
+
+Check your previous exercise for hint to pass this session.
+Don't forget to import libraries first.
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+
+```
+
+`@solution`
+```{python}
+import numpy as np
+import pandas as pd
+my_dict = {1: ['1', '3'], 2: ['1', '2'], 3: ['2', '4']}
+print(pd.DataFrame(my_dict))
+my_series = pd.Series({"United Kingdom":"London", "India":"New Delhi", "United States":"Washington", "Belgium":"Brussels"})
+print(pd.DataFrame(my_series))
+```
+
+`@sct`
+```{python}
+
+```
+
+---
+
+## Know your dataset 1
+
+```yaml
+type: NormalExercise
+key: d3cb323347
+xp: 100
+```
+
+Wow, Nice step.
+In session we are going to learn a little bit about the data we created
+
+`@instructions`
+You will be using ```shape``` and ```len()``` join with index property.
+
+The shape property will provide you with the dimensions of your DataFrame. That means that you will get to know the width and the height of your DataFrame. On the other hand, the len() function, in combination with the index property, will only give you information on the height of your DataFrame.
+
+Erase the code in the box and retype it(Don't forget practice makes perfect)
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+import numpy as np
+import pandas as pd
+
+df = pd.DataFrame(np.array([[1, 2, 3], [4, 5, 6]]))
+
+# Use the `shape` property
+print(df.shape)
+
+# Or use the `len()` function with the `index` property
+print(len(df.index))
+```
+
+`@solution`
+```{python}
+import numpy as np
+import pandas as pd
+df = pd.DataFrame(np.array([[1, 2, 3], [4, 5, 6]]))
+print(df.shape)
+print(len(df.index))
+```
+
+`@sct`
+```{python}
+
+```
+
+---
+
+## Know your dataset 2
+
+```yaml
+type: NormalExercise
+key: c0163bb980
+xp: 100
+```
+
+After loading a data you need to see your data. lol imagine your wife just gave birth of course yuo will need to see your child.
+
+`@instructions`
+In this session we will use .describe to generate descriptive statistics that summarize the central tendency, dispersion and shape of a dataset’s distribution, excluding NaN values.
+We can also use
+DataFrame.count
+Count number of non-NA/null observations.
+DataFrame.max
+Maximum of the values in the object.
+DataFrame.min
+
+
+Erase the code in the box and retype it(Don't forget practice makes perfect)
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+import pandas as pd 
+path='https://ibm.box.com/shared/static/q6iiqb1pd7wo8r3q28jvgsrprzezjqk3.csv'
+df = pd.read_csv(path)
+df.describe
+```
+
+`@solution`
+```{python}
+
+```
+
+`@sct`
+```{python}
+
+```
+
+---
+
+## How to load data using pandas
+
+```yaml
+type: NormalExercise
+key: cb79d244dd
+xp: 100
+```
+
+Yes, You made it through.
+In this session we will load a Dataset using Pandas and assign it to a variable
+
+`@instructions`
+To load a Dataset you will use  ```pd.read_csv and pd.read_excel('filename.xlsx') e.t.c```.
+
+We will load a Dataset from IBM database using the url and assign a variable to it, then print out the first 5 rows.
+
+Erase the code in the box and retype it(Don't forget practice makes perfect)
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+import pandas as pd 
+#url path
+path='https://ibm.box.com/shared/static/q6iiqb1pd7wo8r3q28jvgsrprzezjqk3.csv'
+#assigning your data to a variable
+df = pd.read_csv(path)
+#print the first 5  rows
+df.head(5)
+```
+
+`@solution`
+```{python}
+import pandas as pd 
+path='https://ibm.box.com/shared/static/q6iiqb1pd7wo8r3q28jvgsrprzezjqk3.csv'
+df = pd.read_csv(path)
+df.head(5)
+```
+
+`@sct`
+```{python}
+
+```
+
+---
+
+## Tips
+
+```yaml
+type: NormalExercise
+key: f4e7a396ac
+xp: 100
+```
+
+DataFrame.isna()	Detect missing values.
+DataFrame.notna()	Detect existing (non-missing) values.
+
+DataFrame.head([n])	Return the first n rows.
+DataFrame.at	Access a single value for a row/column label pair.
+DataFrame.iat	Access a single value for a row/column pair by integer position.
+DataFrame.loc	Access a group of rows and columns by label(s) or a boolean array.
+DataFrame.iloc	Purely integer-location based indexing for selection by position.
+DataFrame.insert(loc, column, value[, …])	Insert column into DataFrame at specified location.
+
+DataFrame.dropna([axis, how, thresh, …])	Remove missing values.
+DataFrame.fillna([value, method, axis, …])	Fill NA/NaN values using the specified method.
+
+
+DataFrame.append(other[, ignore_index, …])	Append rows of other to the end of caller, returning a new object.
+DataFrame.assign(**kwargs)	Assign new columns to a DataFrame.
+DataFrame.join(other[, on, how, lsuffix, …])	Join columns of another DataFrame.
+
+`@instructions`
+The code above is useful so write it on your learning notebook and click on submit to pass
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+
+```
+
+`@solution`
+```{python}
+
+```
+
+`@sct`
+```{python}
+
+```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: MultipleChoiceExercise
+key: d803aaf772
+xp: 50
+```
+
+This exercise will requires you to do the following task
+
+
+`@possible_answers`
+
+
+`@hint`
+Read the data
+assign it to a variable ```df```
+show the mean of the dataset
+count the number of column and rows using this dataset
+
+`@pre_exercise_code`
 ```{python}
 
 ```
