@@ -657,7 +657,7 @@ Kindly type the hashtag you are required to use to share your progress on your s
 
 `@solution`
 ```{python}
-#100daysofcode #100daysofDscode #100days #Day2 #Day2outof100 #DataScience #MachineLearning #Ai
+#100daysofcode #100daysofDscode #100days  #Day2outof100 #DataScience #MachineLearning #Ai
 ```
 
 `@sct`
