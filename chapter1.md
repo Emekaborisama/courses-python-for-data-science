@@ -27,7 +27,7 @@ In this exercise we will focus on the popular and most used data science librari
 Type the 4 most used Python libraries for Data Science
 
 `@hint`
-PNMS
+Pandas,Numpy,Matplotlib
 
 `@pre_exercise_code`
 ```{python}
@@ -41,9 +41,7 @@ PNMS
 
 `@solution`
 ```{python}
-Pandas
-Numpy
-Matplotlib
+Pandas,Numpy,Matplotlib
 ```
 
 `@sct`
