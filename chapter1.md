@@ -351,10 +351,10 @@ key: c0163bb980
 xp: 100
 ```
 
-After loading a data you need to see your data. lol imagine your wife just gave birth of course yuo will need to see your child.
+After loading a data you need to see your data. lol imagine your wife just gave birth of course you will need to see your child.
 
 `@instructions`
-In this session we will use .describe to generate descriptive statistics that summarize the central tendency, dispersion and shape of a dataset’s distribution, excluding NaN values.
+In this session we will use ```describe``` to generate descriptive statistics that summarize the central tendency, dispersion and shape of a dataset distribution and excluding NaN values.
 We can also use
 DataFrame.count
 Count number of non-NA/null observations.
