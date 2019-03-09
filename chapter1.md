@@ -41,7 +41,7 @@ Pandas,Numpy,Matplotlib
 
 `@solution`
 ```{python}
-1.Pandas 2.Numpy 3.Matplotlib
+PNM
 ```
 
 `@sct`
