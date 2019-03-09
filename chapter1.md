@@ -24,10 +24,10 @@ In this exercise we will focus on the popular and most used data science librari
 3. Matplotlib
 
 `@instructions`
-Type the 4 most used Python libraries for Data Science
+Type the 3 most used Python libraries for Data Science
 
 `@hint`
-Pandas,Numpy,Matplotlib
+
 
 `@pre_exercise_code`
 ```{python}
