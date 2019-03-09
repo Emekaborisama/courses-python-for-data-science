@@ -14,14 +14,14 @@ xp: 100
 skills: 2
 ```
 
-# **Hello,Welcome to Day 4- 5 of 100 days of Ds code.**
+# **Hello,Welcome to Day 4- 5 of 100 days of Ds code.** 
 
-We discussed on Python libraries for Data Science and we mentioned 10 of them.
-in this exercise we will focus on the popular and most used data science libraries such as 
+We discussed on Python libraries for Data Science and we mentioned 9 of them.([See link here](https://medium.com/100daysofdscode/100daysof-dscode-datascience-day-4-5-python-for-data-science-ab0a04f632a3)).
+
+In this exercise we will focus on the popular and most used data science libraries which are :
 1. Pandas
 2. Numpy
 3. Matplotlib
-4. Scapy
 
 `@instructions`
 Type the 4 most used Python libraries for Data Science
@@ -44,7 +44,6 @@ PNMS
 Pandas
 Numpy
 Matplotlib
-Scapy
 ```
 
 `@sct`
@@ -67,6 +66,9 @@ Wow, **Congrats** ```
 ``` you have successfully entered the society of ds heros with python as your sword and you got to use your intuition as your skills
 In this phase you will write code like a World-class Data Scientist. 
 Let's look at the first python library on our list(previous session)
+
+**Numpy**
+
 
 `@instructions`
 Import```Numpy``` library and pass it into an alias
