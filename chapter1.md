@@ -69,7 +69,6 @@ Let's look at the first python library on our list(previous session)
 
 **Numpy**
 
-
 `@instructions`
 Import```Numpy``` library and pass it into an alias
 ```np``` then use ```np.around```use it to round up the sum of 2.345 + 2.7845 into 2 decimal places.
