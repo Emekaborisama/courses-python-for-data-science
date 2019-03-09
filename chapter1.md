@@ -26,8 +26,12 @@ In this exercise we will focus on the popular and most used data science librari
 `@instructions`
 Type the 3 most used Python libraries for Data Science
 
-`@hint`
+#Check hint if you are having an issue running this exercise
 
+`@hint`
+#pandas
+#numpy
+#matplotlib
 
 `@pre_exercise_code`
 ```{python}
@@ -41,7 +45,9 @@ Type the 3 most used Python libraries for Data Science
 
 `@solution`
 ```{python}
-
+#pandas
+#numpy
+#matplotlib
 ```
 
 `@sct`
