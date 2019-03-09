@@ -41,7 +41,7 @@ Pandas,Numpy,Matplotlib
 
 `@solution`
 ```{python}
-print(pandas,numpy and matplotlib)
+
 ```
 
 `@sct`
