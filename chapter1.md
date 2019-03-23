@@ -359,12 +359,8 @@ After loading a data you need to see your data. lol imagine your wife just gave 
 
 `@instructions`
 In this session we will use ```describe``` to generate descriptive statistics that summarize the central tendency, dispersion and shape of a dataset distribution and excluding NaN values.
-We can also use
-DataFrame.count
-Count number of non-NA/null observations.
-DataFrame.max
-Maximum of the values in the object.
-DataFrame.min
+We can also use```DataFrame.count```Count number of non-NA/null observations.
+```DataFrame.max```Maximum of the values in the object.```DataFrame.min```
 
 
 Erase the code in the box and retype it(Don't forget practice makes perfect)
