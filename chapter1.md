@@ -505,7 +505,7 @@ The code above is useful so write it on your learning notebook and click on subm
 
 ---
 
-## Pratice
+## Practice
 
 ```yaml
 type: MultipleChoiceExercise
@@ -513,7 +513,13 @@ key: d803aaf772
 xp: 50
 ```
 
-This exercise will requires you to do the following task
+This exercise will requires you to do the following task.
+
+Read the dataset
+assign it to a variable ```df```
+describe your dataset
+count the number of column and rows using the dataset
+(Use the IBM dataset given to you)
 
 `@possible_answers`
 
